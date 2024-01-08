@@ -1,0 +1,6 @@
+.DS_Store
+
+## Camel Plugins ##
+plugins/*
+!plugins/.gitkeep
+!plugins/README.md
