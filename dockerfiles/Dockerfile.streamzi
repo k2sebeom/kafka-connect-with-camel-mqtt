@@ -1,0 +1,5 @@
+FROM quay.io/strimzi/kafka:latest-kafka-3.6.1
+
+COPY ./plugins/ /opt/kafka/plugins/
+
+USER 1001

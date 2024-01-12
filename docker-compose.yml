@@ -1,6 +1,6 @@
 services:
   connect:
-    image: foo
+    image: k2sebeom/kafka-connect-with-camel-mqtt:cp-latest
     container_name: kafka-connect
     ports:
       - '8083:8083'
